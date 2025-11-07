@@ -1,0 +1,35 @@
+
+body{
+    background-color: hwb(31 85% 5%);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    max-width: 800px;
+    margin: fixed auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recipe-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+h3{
+    color:  hsl(332, 51%, 32%);
+}
+h2{
+    color:hsl(14, 45%, 36%);
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
