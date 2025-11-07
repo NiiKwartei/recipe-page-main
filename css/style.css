@@ -33,3 +33,12 @@ h2{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.heading{
+    color: hsl(14, 45%, 36%);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;   
+    border-bottom: 10px;
+}
