@@ -1,16 +1,16 @@
 /* Outfit (variable) */
 @font-face {
-  font-family: "Outfit";
-  src: url("assets/fonts/outfit/static/Outfit-VariableFont_wght.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Outfit";
+    src: url("/assets/fonts/outfit/static/Outfit-VariableFont_wght.ttf") format('ttf');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* Young Serif */
 @font-face {
   font-family: "Young Serif";
-  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") ;
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -23,6 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    line-height: 1.7;
 
 }
 .container{
@@ -41,9 +42,17 @@ body{
 }
 h3{
     color:  hsl(332, 51%, 32%);
+    
 }
 h2{
     color:hsl(14, 45%, 36%);
+    font-family: 'Outfit,';
+
+h1{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit', sans-serif;
+}
+
 }
 .prep-time{
     background-color: hsl(330, 100%, 98%);
@@ -59,4 +68,9 @@ table{
     border-collapse: collapse;
     margin-top: 10px;   
     border-bottom: 10px;
+    column-gap: 100px;
 }
+
+
+
+   /* Email View */
