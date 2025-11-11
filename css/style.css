@@ -71,3 +71,11 @@ table{
     border-bottom: 10px;
     column-gap: 100px;
 }
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+li {
+    padding-left: 0.5rem;
+}
