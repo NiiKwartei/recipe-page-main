@@ -26,7 +26,7 @@ body{
     line-height: 1.8;
 }
 .container{
-    max-width: 800px;
+    max-width: 70%;
     margin: fixed auto;
     padding: 20px;
     background-color: white;
@@ -35,8 +35,7 @@ body{
 }
 .recipe-image{
     width: 100%;
-    height: auto;
-    border-radius: 8px;
+     border-radius: 8px;
     margin-bottom: 20px;
 }
 h3{
