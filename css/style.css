@@ -17,7 +17,7 @@
 
 body{
     background-color: hwb(31 85% 5%);
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-weight: 250;
     font-size: 16px;
     display: flex;
@@ -41,17 +41,17 @@ body{
 }
 h3{
     color:  hsl(332, 51%, 32%);
-    font-family: 'Outfit'; 
+    font-family: 'Outfit', sans-serif; 
     font-weight: 600;             
 }
 h2{
     color:hsl(14, 45%, 36%);
-    font-family: 'Young serif';
+    font-family: 'Young Serif', serif;
 }
 
 h1{
     color: rgb(0, 0, 0);
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
 }
 
 .prep-time{
